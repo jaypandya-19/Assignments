@@ -28,6 +28,10 @@ public class Assignment1_DatatTypes {
 		System.out.println("5. Person's email address: " + emailAddress);
 		
 		//6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
+		float latitude, longitude;
+		latitude = 37.7749f;
+		longitude = -122.4194f;
+		System.out.println("6. Coordinates of a location (latitude, longitude): "+latitude+","+longitude);
 		
 		//7. Person's marital status: true or false
 		boolean material = true;
@@ -52,8 +56,11 @@ public class Assignment1_DatatTypes {
 		//12.Rating of a movie: 7.51
 		float rating =7.51f;
 		System.out.println("12.Rating of a movie: "+ rating);
+		
 		//13.Person's blood type: 'A'
+		
 		//14.Title of a book: "To Kill a Mockingbird"
+		
 		//15.Number of employees in a company: 500
 		//16.Time of an event: 2:30 PM
 		//17.Name of a country: "United States"
