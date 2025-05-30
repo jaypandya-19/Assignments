@@ -44,7 +44,7 @@ public class Assignment7_ConditionalStatement {
 			}
 			else
 			{
-				System.out.println("Hi "+customerName + ", Your Loan Is Approval take more time from Bank Side.");
+				System.out.println("Hi "+customerName + ", You are few steps away from your Loan Approval.");
 					
 				if(income >= 50000 && isEmployed == true && debtToIncomeRatio < 40) {
 					System.out.println("Congratulation "+customerName + ", Your Loan Is Approved from Bank Side.");
