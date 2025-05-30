@@ -33,7 +33,7 @@ public class Assignment7_ConditionalStatement {
 
 	public static void main(String[] args) {
 		String customerName = "John Doe";
-		double creditScore = 820d;
+		double creditScore = 720d;
 		float income = 55000.0f;
 		boolean isEmployed = true;
 		float debtToIncomeRatio = 35.0f;
