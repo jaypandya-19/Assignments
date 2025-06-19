@@ -29,7 +29,7 @@ debtToIncomeRatio = 35.0;
 
 package assignments;
 
-public class Assignment7_ConditionalStatement {
+public class Assignment07_ConditionalStatement {
 
 	public static void main(String[] args) {
 		String customerName = "John Doe";
@@ -38,24 +38,20 @@ public class Assignment7_ConditionalStatement {
 		boolean isEmployed = true;
 		float debtToIncomeRatio = 35.0f;
 
-		if(creditScore < 750) {
-			if(creditScore < 650) {
-				System.out.println("We are Sorry "+customerName + ", Your Loan Is Denied from Bank Side.");
-			}
-			else
-			{
-				System.out.println("Hi "+customerName + ", You are few steps away from your Loan Approval.");
-					
-				if(income >= 50000 && isEmployed == true && debtToIncomeRatio < 40) {
-					System.out.println("Congratulation "+customerName + ", Your Loan Is Approved from Bank Side.");
-				}
-				else {
-					System.out.println("We are Sorry "+customerName + ", Your Loan Is Denied from Bank Side.");
+		if (creditScore < 750) {
+			if (creditScore < 650) {
+				System.out.println("We are Sorry " + customerName + ", Your Loan Is Denied from Bank Side.");
+			} else {
+				System.out.println("Hi " + customerName + ", You are few steps away from your Loan Approval.");
+
+				if (income >= 50000 && isEmployed == true && debtToIncomeRatio < 40) {
+					System.out.println("Congratulation " + customerName + ", Your Loan Is Approved from Bank Side.");
+				} else {
+					System.out.println("We are Sorry " + customerName + ", Your Loan Is Denied from Bank Side.");
 				}
 			}
-		}else
-		{
-			System.out.println("Congratulation "+customerName + ", Your Loan Is Approved from Bank Side.");
+		} else {
+			System.out.println("Congratulation " + customerName + ", Your Loan Is Approved from Bank Side.");
 		}
 	}
 

@@ -16,7 +16,7 @@ Average Marks: 89.0
 
 package assignments;
 
-public class Assignment6_Operator {
+public class Assignment06_Operator {
 
 	public static void main(String[] args) {
 //		String name[3]= new ["Suresh","Mahesh","Naresh"];
