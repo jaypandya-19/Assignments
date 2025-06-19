@@ -48,7 +48,7 @@ public class Assignment18_StringOperation {
 		Assignment18_StringOperation pel = new Assignment18_StringOperation();
 		pel.palindrom("A man, a plan, a canal: Panama");
 		pel.palindrom("raceacar");
-//		String sent = "Jay; yaj";
+//		String sent = "Jay0; 0yaj";
 		
 	}
 }
